@@ -1,11 +1,13 @@
 Instructions to run the application
 
 STEP 1: Set up SQL on GCP (This was done in class.  If you missed it, follow
-        the instructions in the handout GCP_SQL_instructions.pdf posted in Teams)
+        the instructions in the handout GCP SQL setup instruction posted on the 
+        course site: 
+        https://docs.google.com/document/d/1X7vnexMHT8upAUNUj-xtlwQJIMp63CZ-PAEtYBv1YHI/edit?usp=sharing
 
 STEP 2: If you haven't yet created a database named population, go to the SQL
-        interface on GCP and create the database (this is the last step in the
-        handout GCP_SQL_instructions.pdf)
+        interface on GCP and create the database.  This is the last step in the
+        handout linked in Step 1.
 
 STEP 3: Install the python DB related python modules from the command line:
 sudo pip3 install requests flask-mysql flask-wtf flask-sqlalchemy mysql-connector-python
